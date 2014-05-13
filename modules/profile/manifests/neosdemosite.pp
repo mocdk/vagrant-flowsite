@@ -3,6 +3,7 @@ class profile::neosdemosite {
 	include profile::php
 	include profile::devtools
 	include profile::db
+	include profile::nfs-server
 
 	class { 'apt::backports':
 	}
